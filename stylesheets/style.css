@@ -1,0 +1,58 @@
+body {
+	  text-align: center;
+}
+#wrapper {
+	  text-align: left;
+	  width: 100%;
+	  margin-left: auto;
+	  margin-right: auto;
+}
+
+#options{
+	width: 24%;
+	height:550px;
+	border:1px solid black;
+	float:right;
+    position: fixed;
+    top: 8px;
+    left: 75%;
+}
+
+#frame{
+	width:75%;
+	height:550px;
+    background-position: 0 0;
+    float:left;
+}
+
+.ui-draggable-helperMoving {
+	border: 1px dotted #000;
+	padding: 6px;
+	background: #fff;
+	font-size: 1.2em;
+	width:100px;
+	height:100px;
+}
+
+.ui-draggable-helperStoped {
+	border: 1px solid #000;
+	width:5px;
+	height:5px;
+}
+
+/* classes for dragged stuff */
+
+
+#element{
+	border:1px solid red
+}
+
+#plan_area{
+    background-image: url(../images/house_plan_2.png);
+    background-repeat: no-repeat;
+    width: 80%;
+    margin: auto;
+}
+#plan_img{
+    visibility: hidden;
+}
